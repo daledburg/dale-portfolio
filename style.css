@@ -14,6 +14,8 @@ body {
     flex-direction: column;
 }
 
+/*Header Styling*/
+
 header {
     position: sticky;
     top: 0;
@@ -23,7 +25,6 @@ header {
     justify-content: space-between;
     background: #09221E;
 }
-
 .page-navs {
     text-decoration: none;
     color: black;
@@ -34,25 +35,6 @@ header {
     border-radius: 1rem;
     font-family: 'Roboto', sans-serif;
 }
-
-#email-icon {
-    background: white;
-    border-radius: 50%;
-    width: 6vw;     
-}
-
-.social-buttons1 {
-    display: flex;
-    justify-content: center;
-    padding-top: 1rem;
-}
-
-.social-navs {
-    width: 60%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
 #home-nav-btn {
     margin: 1rem 2rem;
     border: 0.2rem solid white;
@@ -61,16 +43,36 @@ header {
     object-fit: cover;
     width: 10vw;
 }
-
 .home-icon {
     width: 100%;
     height: 100%;
 }
-
 #nav-icon {
     border-radius: 50%;
 }
-
+/*Social buttons and footer*/
+#email-icon {
+    background: white;
+    border-radius: 50%;
+    width: 6vw;     
+}
+.social-buttons1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.social-navs {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.8rem;
+    color: white;
+}
+/*Main page styling*/
 h1 {
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     color: white;
@@ -78,83 +80,33 @@ h1 {
     padding: 2rem 3rem; 
     font-size: 5rem;
 }
-
 .profile-container {
     display: flex;
     justify-content: center;
     margin: 1rem;
 }
-
 .profile-pic {
     border-radius: 50%;
     width: 50vw;
     border: 2px solid gold;
 }
-
 h3 {
     text-align: center;
     font-size: 2.5rem;
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     color: white;
-    padding: 1rem;
+    padding: 2rem;
 }
-
-footer {
-    text-align: center;
-    padding: 1.5rem;
-    font-size: 0.8rem;
-    color: white;
-}
-
-.head-blog {
-    padding: 3rem;
-    color: white;
-    border: 2px solid gold;
-    border-radius: 3rem;
-    width: 80%;
-    justify-content: center;
-    font-family: 'Roboto', sans-ser;
-    font-weight: lighter;
-
-}
-
-.blogs-container {
+.home-main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 2rem;
 }
-
-h4 {
-    text-decoration: none;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-}
-
-.main-blog-img {
-    display: flex;
-    justify-content: center;
-    max-height: 40vh;
-    overflow: hidden;
-    object-fit: cover;
-}
-
-.link-blogs {
-    display: flex;
-    justify-content: center;
-    border: 2px solid gold;
-    height: 10vh;
-    padding: 2rem;
-    margin: 1rem;
-    width: 80%;
-    border-radius: 2rem;
-    background: #030430;
-    object-fit: contain;
-}
-
+/*Loading bar animation*/
 .loading-bar-wrapper {
     width: 75%;  
 }
-
 .loading-bar{
     position: relative;
     margin-top: 2rem;
@@ -166,7 +118,6 @@ h4 {
     border-radius: 2rem;
     overflow: hidden;
 }
-
 @keyframes loading {
     0% {
         width: 0%;
@@ -178,7 +129,6 @@ h4 {
         width: 0%;
     }
 }
-
 .loading-content {
     display: flex;
     height: 3vh;
@@ -189,14 +139,6 @@ h4 {
     animation-duration: 10s;
     animation-iteration-count: infinite;
 }
-
-.home-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 2rem;
-}
-
 @keyframes loading-text {
     0% {
         opacity: 0;
@@ -208,14 +150,105 @@ h4 {
         opacity: 0;
     }
 }
-
 #loading-description {
     font-size: 2rem;
     animation-name: loading-text;
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
-
 #job-identifier {
     font-size: 3rem;
+}
+/*Blog Page Styling*/
+.head-blog {
+    padding: 3rem;
+    color: white;
+    border: 2px solid gold;
+    border-radius: 3rem;
+    width: 80%;
+    justify-content: center;
+    font-family: 'Roboto', sans-ser;
+    font-weight: lighter;
+    background: #2e334d;
+}
+.blogs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h4 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.main-blog-img {
+    display: flex;
+    justify-content: center;
+    max-height: 40vh;
+    overflow: hidden;
+    object-fit: cover;
+    border: 2px solid gold;
+    border-radius: 2rem;
+}
+.link-blogs {
+    display: flex;
+    justify-content: center;
+    border: 2px solid gold;
+    height: 10vh;
+    padding: 2rem;
+    margin: 1rem;
+    width: 80%;
+    border-radius: 2rem;
+    background: #2e334d;
+    object-fit: contain;
+}
+/*About me page styling*/
+#about-me-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.about-me-sect {
+    border: 1px solid gold;
+    width: 80%;
+    border-radius: 3rem;
+    padding: 3rem;
+    background: #2e334d;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border: 2px solid gold;
+    border-radius: 2rem;
+}
+#about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+#resume-btn-cont {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 2rem 2rem 0 2rem;
+    padding: 1rem;
+    border: 2px solid white;
+    border-radius: 2rem;
+    background: gold;
+}
+#resume-btn {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.about-me-para {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+.hobbies-container {
+    display: flex;
+
 }
