@@ -1,5 +1,6 @@
 /* font for headings */
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
 * {
     box-sizing: border-box;
@@ -14,31 +15,36 @@ body {
 }
 
 header {
+    position: sticky;
+    top: 0;
     display: flex;
     align-items: center;
     padding: 1 rem;
     justify-content: space-between;
+    background: #09221E;
 }
 
 .page-navs {
     text-decoration: none;
-    color: white;
-    /* font-size: 3rem */
+    color: black;
+    background: gold;
+    margin-right: 1rem;
     padding: 0.5rem 1rem;
-    border: 1px solid gold;
-    border-radius: 15%;
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    border: 1px solid white;
+    border-radius: 1rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 #email-icon {
     background: white;
     border-radius: 50%;
-    width: 8vw;     
+    width: 6vw;     
 }
 
 .social-buttons1 {
     display: flex;
     justify-content: center;
+    padding-top: 1rem;
 }
 
 .social-navs {
@@ -69,13 +75,14 @@ h1 {
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     color: white;
     text-align: center;
-    padding: 2rem 4rem; 
-    font-size: 4rem;
+    padding: 2rem 3rem; 
+    font-size: 5rem;
 }
 
 .profile-container {
     display: flex;
     justify-content: center;
+    margin: 1rem;
 }
 
 .profile-pic {
@@ -86,22 +93,29 @@ h1 {
 
 h3 {
     text-align: center;
+    font-size: 2.5rem;
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     color: white;
+    padding: 1rem;
 }
 
 footer {
     text-align: center;
+    padding: 1.5rem;
     font-size: 0.8rem;
     color: white;
 }
 
 .head-blog {
     padding: 3rem;
-    /* display: flex; */
     color: white;
+    border: 2px solid gold;
+    border-radius: 3rem;
     width: 80%;
     justify-content: center;
+    font-family: 'Roboto', sans-ser;
+    font-weight: lighter;
+
 }
 
 .blogs-container {
@@ -113,35 +127,95 @@ footer {
 h4 {
     text-decoration: none;
     color: white;
-}
-
-.link-blogs {
-    border: 2px solid white;
-    padding: 2rem;
-    margin: 1rem;
-    width: 80%;
-    border-radius: 2rem;
-    background: url(https://place.dog/300/300);
-    object-fit: cover;
-}
-
-.head-blog {
-    border: 2px solid white;
-    border-radius: 2rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main-blog-img {
+    display: flex;
+    justify-content: center;
     max-height: 40vh;
     overflow: hidden;
-    object-fit: fill;
+    object-fit: cover;
 }
 
-.link-blogs1 {
-    border: 2px solid white;
+.link-blogs {
+    display: flex;
+    justify-content: center;
+    border: 2px solid gold;
+    height: 10vh;
     padding: 2rem;
     margin: 1rem;
     width: 80%;
     border-radius: 2rem;
-    background: url(images/europe-photo1.png);
-    object-fit: cover;
+    background: #030430;
+    object-fit: contain;
+}
+
+.loading-bar-wrapper {
+    width: 75%;  
+}
+
+.loading-bar{
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    height: 3vh;
+    width: 60%;
+    border: 1px solid gold;
+    background: #09221E;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+@keyframes loading {
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 95%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
+.loading-content {
+    display: flex;
+    height: 3vh;
+    width: 0%;
+    background: #3DED0C;
+    border-radius: 2rem;
+    animation-name: loading;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.home-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+@keyframes loading-text {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#loading-description {
+    font-size: 2rem;
+    animation-name: loading-text;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#job-identifier {
+    font-size: 3rem;
 }
