@@ -13,9 +13,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-
 /*Header Styling*/
-
 header {
     position: sticky;
     top: 0;
@@ -23,25 +21,39 @@ header {
     align-items: center;
     padding: 1 rem;
     justify-content: space-between;
-    background: #09221E;
+    background: #09221e9a;
 }
 .page-navs {
     text-decoration: none;
     color: black;
-    background: gold;
+    background: goldenrod;
     margin-right: 1rem;
     padding: 0.5rem 1rem;
     border: 1px solid white;
     border-radius: 1rem;
     font-family: 'Roboto', sans-serif;
+    box-shadow: 3px 3px rgba(218, 165, 32, 0.404);
+}
+.page-navs:hover {
+    background: rgba(218, 165, 32, 0.61);
+}
+.page-navs:active {
+    box-shadow: none;
 }
 #home-nav-btn {
     margin: 1rem 2rem;
     border: 0.2rem solid white;
     border-radius: 50%;
-    background: gold;
+    background: goldenrod;
     object-fit: cover;
     width: 10vw;
+    box-shadow: 3px 3px rgba(218, 165, 32, 0.404);
+}
+#home-nav-btn:hover {
+    background: rgba(218, 165, 32, 0.61);
+}
+#home-nav-btn:active {
+    box-shadow: none;
 }
 .home-icon {
     width: 100%;
@@ -88,7 +100,7 @@ h1 {
 .profile-pic {
     border-radius: 50%;
     width: 50vw;
-    border: 2px solid gold;
+    border: 2px solid goldenrod;
 }
 h3 {
     text-align: center;
@@ -103,17 +115,21 @@ h3 {
     align-items: center;
     margin: 2rem;
 }
+#future-loading-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /*Loading bar animation*/
 .loading-bar-wrapper {
     width: 75%;  
 }
-.loading-bar{
-    position: relative;
+.loading-bar {
     margin-top: 2rem;
     margin-bottom: 1rem;
     height: 3vh;
-    width: 60%;
-    border: 1px solid gold;
+    width: 70%;
+    border: 1px solid goldenrod;
     background: #09221E;
     border-radius: 2rem;
     overflow: hidden;
@@ -163,7 +179,7 @@ h3 {
 .head-blog {
     padding: 3rem;
     color: white;
-    border: 2px solid gold;
+    border: 2px solid goldenrod;
     border-radius: 3rem;
     width: 80%;
     justify-content: center;
@@ -175,9 +191,11 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
-h4 {
+.blog-links-title {
     color: white;
+    text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
 .main-blog-img {
@@ -186,20 +204,89 @@ h4 {
     max-height: 40vh;
     overflow: hidden;
     object-fit: cover;
-    border: 2px solid gold;
+    border: 2px solid goldenrod;
     border-radius: 2rem;
 }
 .link-blogs {
     display: flex;
     justify-content: center;
-    border: 2px solid gold;
+    border: 2px solid goldenrod;
     height: 10vh;
     padding: 2rem;
     margin: 1rem;
-    width: 80%;
+    width: 100%;
     border-radius: 2rem;
-    background: #2e334d;
-    object-fit: contain;
+    background: url(images/Europepic.jpg);
+    object-fit: fill;
+}
+.link-blogs2 {
+    display: flex;
+    justify-content: center;
+    border: 2px solid goldenrod;
+    height: 10vh;
+    padding: 2rem;
+    margin: 1rem;
+    width: 100%;
+    border-radius: 2rem;
+    background: url(images/japanpic.jpg);
+    object-fit: fill;
+}
+.link-blogs3 {
+    display: flex;
+    justify-content: center;
+    border: 2px solid goldenrod;
+    height: 10vh;
+    padding: 2rem;
+    margin: 1rem;
+    width: 100%;
+    border-radius: 2rem;
+    background: url(images/america-photo.png);
+    object-fit: fill;
+}
+.link-blogs4 {
+    display: flex;
+    justify-content: center;
+    border: 2px solid goldenrod;
+    height: 10vh;
+    padding: 2rem;
+    margin: 1rem;
+    width: 100%;
+    border-radius: 2rem;
+    background: url(images/NZ-image.png);
+    object-fit: fill;
+}
+.link-blogs5 {
+    display: flex;
+    justify-content: center;
+    border: 2px solid goldenrod;
+    height: 10vh;
+    padding: 2rem;
+    margin: 1rem;
+    width: 100%;
+    border-radius: 2rem;
+    background: url(images/africa-photo.png);
+    object-fit: fill;
+}
+.link-blogs:hover {
+    background: rgba(255, 199, 58, 0.897);
+}
+.link-blogs2:hover {
+    background: rgba(255, 199, 58, 0.897);
+}
+.link-blogs3:hover {
+    background: rgba(255, 199, 58, 0.897);
+}
+.link-blogs4:hover {
+    background: rgba(255, 199, 58, 0.897);
+}
+.link-blogs5:hover {
+    background: rgba(255, 199, 58, 0.897);
+}
+.blog-links-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color: rgb(27, 26, 80);
 }
 /*About me page styling*/
 #about-me-container {
@@ -208,24 +295,24 @@ h4 {
     align-items: center;
 } 
 .about-me-sect {
-    border: 1px solid gold;
+    border: 1px solid goldenrod;
     width: 80%;
     border-radius: 3rem;
-    padding: 3rem;
+    padding: 2rem;
     background: #2e334d;
 }
 .img-container {
     display: flex;
     justify-content: center;
     overflow: hidden;
-    border: 2px solid gold;
+    border: 2px solid goldenrod;
     border-radius: 2rem;
 }
 #about-me {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3rem;
+    padding: 2rem;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
@@ -237,7 +324,14 @@ h4 {
     padding: 1rem;
     border: 2px solid white;
     border-radius: 2rem;
-    background: gold;
+    background: goldenrod;
+    box-shadow: 3px 3px rgba(218, 165, 32, 0.404);
+}
+#resume-btn-cont:hover {
+    background: rgba(218, 165, 32, 0.61);
+}
+#resume-btn-cont:active {
+    box-shadow: none;
 }
 #resume-btn {
     text-decoration: none;
@@ -247,8 +341,100 @@ h4 {
 .about-me-para {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
+    padding: 1rem;
 }
 .hobbies-container {
     display: flex;
+
+}
+/*Projects page styling*/
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid goldenrod;
+    border-radius: 2rem;
+    margin: 2rem 15%;
+}
+h5  {
+    color: white;
+    padding: 2rem;
+}
+/*Styling for tablet*/
+@media only screen and (min-width: 900px) {
+    .home-main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 10% 5%;
+    }
+    .profile-pic {
+        max-width: 20vw;
+    }
+    #home-nav-btn {
+        max-width: 4vw;
+    }
+    #future-loading-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #divider {
+        height: 50vh;
+        border: 2px solid goldenrod;
+        background: goldenrod;
+        border-radius: 1rem;
+        margin: 0% 10%;
+    }
+    .about-me-sect {
+        display: flex;
+        align-items: center;
+    }   
+    .img-container {
+        flex: 1;
+        max-height: 60vh;
+    }
+    #about-me {
+        flex: 1;
+    }
+    #laylapic {
+        object-fit: cover;
+    }
+    #resume-btn-cont {
+        width: 40%;
+    }
+    .blogs-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 5%;
+    }
+    .head-blog {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 3;
+    }
+    #link-blogs-container {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-blog-img {
+        max-width: 25vw;
+        height: auto;
+    }
+    .blog-photo {
+        object-fit: cover;
+    }
+    .link-blogs {
+        /* background: url(images/africa-photo.png); */
+    }
+    .blogs-container {
+        align-items: space-between;
+    }
+    .social-navs {
+        width: 25%;
+    }
 
 }
