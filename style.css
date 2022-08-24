@@ -178,12 +178,15 @@ h3 {
 }
 /*Blog Page Styling*/
 .head-blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 3rem;
     color: white;
     border: 2px solid goldenrod;
     border-radius: 3rem;
     width: 80%;
-    justify-content: center;
     font-family: 'Roboto', sans-ser;
     font-weight: lighter;
     background: #2e334d;
@@ -202,9 +205,10 @@ h3 {
 .main-blog-img {
     display: flex;
     justify-content: center;
-    max-height: 40vh;
-    overflow: hidden;
     object-fit: cover;
+    overflow: hidden;
+    width: 70vw;
+    height: 50vh;
     border: 2px solid goldenrod;
     border-radius: 2rem;
 }
@@ -298,7 +302,6 @@ h3 {
 /*About me page styling*/
 #about-me-container {
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
 } 
 .about-me-sect {
@@ -315,12 +318,13 @@ h3 {
 .img-container {
     display: flex;
     justify-content: center;
-    /* overflow: hidden; */
-    object-fit: cover;
+    overflow: hidden;
     width: 70vw;
-    height: 50vh;
+    min-height: 45vh;
     background-image: url(images/Layla.jpg);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 2px solid goldenrod;
     border-radius: 2rem;
 }
@@ -371,7 +375,7 @@ h3 {
     margin: 0 15%;
 }
 .projects {
-    width: 45%;
+    width: 80%;
     height: auto;
     text-align: center;
     margin: 2%;
@@ -384,12 +388,6 @@ h5  {
 }
 .projects {
     background: #2e334d;
-}
-@media only screen and (max-width:1089px){
-    .img-container1 {
-        display: none;
-    }
-    
 }
 /*Styling for tablet*/
 @media only screen and (min-width: 768px) and (max-width: 1089px) {
@@ -423,6 +421,9 @@ h5  {
     }
     #home-nav-btn {
         max-width: 6vw;
+    }
+    .projects {
+        width: 45%;
     }
 }
 
@@ -458,9 +459,11 @@ h5  {
     }
     .img-container {
         background-image: url(images/layla-long.jpg);
-        background-position: right;
-        height: 95%;
-        width: 30vw;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 85%;
+        width: 40vw;
     }
     #about-me {
         flex: 2;
@@ -490,8 +493,8 @@ h5  {
         flex-direction: column;
     }
     .main-blog-img {
-        max-width: 25vw;
-        height: auto;
+        max-width: 35vw;
+        height: 50vh;
     }
     .blog-photo {
         object-fit: cover;
@@ -501,5 +504,8 @@ h5  {
     }
     .social-navs {
         width: 25%;
+    }
+    .projects {
+        width: 45%;
     }
 }
