@@ -27,12 +27,12 @@ header {
     text-decoration: none;
     color: black;
     background: goldenrod;
-    margin-right: 1rem;
-    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    padding: 0.25rem 0.5rem;
     border: 1px solid white;
     border-radius: 1rem;
+    font-size: .5rem;
     font-family: 'Roboto', sans-serif;
-    box-shadow: 3px 3px rgba(218, 165, 32, 0.404);
 }
 .page-navs:hover {
     background: rgba(218, 165, 32, 0.61);
@@ -47,7 +47,6 @@ header {
     background: goldenrod;
     object-fit: cover;
     width: 10vw;
-    box-shadow: 3px 3px rgba(218, 165, 32, 0.404);
 }
 #home-nav-btn:hover {
     background: rgba(218, 165, 32, 0.61);
@@ -91,7 +90,7 @@ h1 {
     color: white;
     text-align: center;
     padding: 2rem 3rem; 
-    font-size: 5rem;
+    font-size: 2rem;
 }
 .profile-container {
     display: flex;
@@ -105,7 +104,7 @@ h1 {
 }
 h3 {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     color: white;
     padding: 2rem;
@@ -174,7 +173,7 @@ h3 {
     animation-iteration-count: infinite;
 }
 #job-identifier {
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 /*Blog Page Styling*/
 .head-blog {
@@ -182,7 +181,7 @@ h3 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 3rem;
+    padding: 2rem;
     color: white;
     border: 2px solid goldenrod;
     border-radius: 3rem;
@@ -218,7 +217,7 @@ h3 {
     border: 2px solid goldenrod;
     height: 10vh;
     padding: 2rem;
-    margin: 1rem;
+    margin-top: 1rem;
     width: 100%;
     border-radius: 2rem;
     background: url(images/Europepic.jpg);
@@ -230,7 +229,7 @@ h3 {
     border: 2px solid goldenrod;
     height: 10vh;
     padding: 2rem;
-    margin: 1rem;
+    margin-top: 1rem;
     width: 100%;
     border-radius: 2rem;
     background: url(images/japanpic.jpg);
@@ -242,7 +241,7 @@ h3 {
     border: 2px solid goldenrod;
     height: 10vh;
     padding: 2rem;
-    margin: 1rem;
+    margin-top: 1rem;
     width: 100%;
     border-radius: 2rem;
     background: url(images/america-photo.png);
@@ -254,7 +253,7 @@ h3 {
     border: 2px solid goldenrod;
     height: 10vh;
     padding: 2rem;
-    margin: 1rem;
+    margin-top: 1rem;
     width: 100%;
     border-radius: 2rem;
     background: url(images/NZ-image.png);
@@ -266,7 +265,7 @@ h3 {
     border: 2px solid goldenrod;
     height: 10vh;
     padding: 2rem;
-    margin: 1rem;
+    margin-top: 1rem;
     width: 100%;
     border-radius: 2rem;
     background: url(images/africa-photo.png);
@@ -361,7 +360,7 @@ h3 {
 .about-me-para {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
-    padding: 1rem;
+    padding: 1rem 0;
 }
 .hobbies-container {
     display: flex;
@@ -389,8 +388,40 @@ h5  {
 .projects {
     background: #2e334d;
 }
+@media only screen and (max-width: 260px) {
+    .page-navs {
+        font-size: .5rem;
+        padding: 0;
+        border-radius: 0.5rem;
+    }
+}
+@media only screen and (min-width: 450px) and (max-width: 767px){
+    .page-navs {
+        font-size: .75rem;
+        margin-right: 1rem;
+        padding: 0.5rem 1rem;
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
+}
 /*Styling for tablet*/
 @media only screen and (min-width: 768px) and (max-width: 1089px) {
+    #home-nav-btn {
+        box-shadow: 3px 2px rgba(218, 165, 32, 0.404);
+    }
+    .page-navs {
+        font-size: 1rem;
+        margin-right: 1rem;
+        padding: 0.5rem 1rem;
+        box-shadow: 3px 3px rgba(218, 165, 32, 0.404);
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    #job-identifier {
+        font-size: 2.5rem;
+    }
     #link-blogs-container {
         display: flex;
         flex-wrap: wrap;
@@ -428,17 +459,30 @@ h5  {
 }
 
 @media only screen and (min-width: 1090px) {
+    .page-navs {
+        font-size: 1rem;
+        margin-right: 3rem;
+        padding: 0.5rem 1rem;
+        box-shadow: 3px 3px rgba(218, 165, 32, 0.404);
+    }
     .home-main {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin: 0 10% 5%;
     }
+    h1 {
+        font-size: 4rem;
+    }
+    #job-identifier {
+        font-size: 2.5rem;
+    }
     .profile-pic {
         max-width: 20vw;
     }
     #home-nav-btn {
         max-width: 4vw;
+        box-shadow: 2px 2px rgba(218, 165, 32, 0.404);
     }
     #future-loading-bar {
         display: flex;
@@ -507,5 +551,20 @@ h5  {
     }
     .projects {
         width: 45%;
+    }
+    .link-blogs {
+        margin-left: 1rem;
+    }
+    .link-blogs2 {
+        margin-left: 1rem;
+    }
+    .link-blogs3 {
+        margin-left: 1rem;
+    }
+    .link-blogs4 {
+        margin-left: 1rem;
+    }
+    .link-blogs5 {
+        margin-left: 1rem;
     }
 }
