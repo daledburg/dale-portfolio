@@ -170,12 +170,16 @@ h3 {
 }
 #loading-description {
     font-size: 2rem;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    text-decoration: none;
     animation-name: loading-text;
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 #job-identifier {
     font-size: 1.5rem;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    text-decoration: none;
 }
 /*Blog Page Styling*/
 .head-blog {
