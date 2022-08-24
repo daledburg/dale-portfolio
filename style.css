@@ -13,9 +13,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-article {
-    text-align: center;
-}
 /*Header Styling*/
 header {
     position: sticky;
@@ -293,12 +290,12 @@ h3 {
 .blog-links-title1 {
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: lighter;
 }
 .blog-links-title {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: lighter;
     color: rgb(27, 26, 80);
 }
