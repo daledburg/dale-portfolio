@@ -215,6 +215,12 @@ h3 {
 .link-blogs {
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
     border: 2px solid goldenrod;
     height: 10vh;
     padding: 2rem;
@@ -227,6 +233,11 @@ h3 {
 .link-blogs2 {
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
     border: 2px solid goldenrod;
     height: 10vh;
     padding: 2rem;
@@ -239,6 +250,11 @@ h3 {
 .link-blogs3 {
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
     border: 2px solid goldenrod;
     height: 10vh;
     padding: 2rem;
@@ -251,6 +267,11 @@ h3 {
 .link-blogs4 {
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
     border: 2px solid goldenrod;
     height: 10vh;
     padding: 2rem;
@@ -263,6 +284,11 @@ h3 {
 .link-blogs5 {
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
     border: 2px solid goldenrod;
     height: 10vh;
     padding: 2rem;
@@ -287,18 +313,6 @@ h3 {
 .link-blogs5:hover {
     background: rgba(255, 199, 58, 0.897);
 }
-.blog-links-title1 {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    font-weight: lighter;
-}
-.blog-links-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    font-weight: lighter;
-    color: rgb(27, 26, 80);
-}
 .blog-heading {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -308,6 +322,17 @@ h3 {
     flex-wrap: wrap;
     width: 80%;
     justify-content: space-around;
+}
+.quote {
+    text-align: center;
+    color: gold;
+    font-size: larger;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    background: #09221ec7;
+    margin: auto 25%;
+    border-radius: 2rem 0;
+    padding: .5rem;
 }
 /*About me page styling*/
 #about-me-container {
