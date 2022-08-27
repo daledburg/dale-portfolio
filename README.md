@@ -24,7 +24,7 @@ Each of the main four pages can be navigated to by using the navigation menu at 
 
 ## Functionality and Features
 
-The website consists of 4 main pages;
+The website is fully responsive between mobile, tablet and desktop screen sizes and has an easy to follow design that reflects my personal personality and style. it consists of 4 main pages;
 
 - Index
 - About me
@@ -35,10 +35,19 @@ One of the first components that was designed and implemented was the main navig
 
 Another component that features on all of the pages is the social links bar at the bottom of every page. This feature allows the user to navigate to external sites which are linked to personal accounts to help give a more fleshed out perception of myself. As this isn't crucial to the page itself, it isn't given the same sticky function of the nav bar and is just placed at the bottom of the page.
 
-One of the most interesting features of the website occurs on the index page where a loading bar animation has been placed. This component was designed to be eye catching and an interesting centre piece of the index page. The animation was created using the animation feature of CSS and is on an infinite loop while the page is up.
+### Index
 
-T
+One of the most interesting features of the website occurs on the index page where a loading bar animation has been placed. This component was designed to be eye catching and an interesting centre piece of the index page. The animation was created using the animation feature of CSS and is on an infinite loop while the page is up. The bar is also coupled with a Loading message that fades in and out like a game loading screen.
 
+### About Me
+
+in this 
+
+### Projects
+
+in this
+
+### Blogs
 ---
 
 ## Screenshots
