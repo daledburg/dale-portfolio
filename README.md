@@ -2,6 +2,8 @@
 
 ---
 
+## [Presentation link](https://vimeo.com/743878092)
+
 ## [Portfolio website link](https://dale-dahlenburg-portfolio.netlify.app/)
 
 ## [Github repository link](https://github.com/daledburg/dale-portfolio)
@@ -35,22 +37,11 @@ One of the first components that was designed and implemented was the main navig
 
 Another component that features on all of the pages is the social links bar at the bottom of every page. This feature allows the user to navigate to external sites which are linked to personal accounts to help give a more fleshed out perception of myself. As this isn't crucial to the page itself, it isn't given the same sticky function of the nav bar and is just placed at the bottom of the page.
 
-### Index
-
 One of the most interesting features of the website occurs on the index page where a loading bar animation has been placed. This component was designed to be eye catching and an interesting centre piece of the index page. The animation was created using the animation feature of CSS and is on an infinite loop while the page is up. The bar is also coupled with a Loading message that fades in and out like a game loading screen.
 
-### About Me
+Another interesting component of the website is the article layout of the about me page. It consists of written information about myself while also providing a picture to further provide understanding of myself as a person. The picture itself is also fully responsive as it not only changes size with different screen sizes but also changes the image provided to suit different layouts. Also included in this component is a button that links to an outside professional resume. This component is not only easily accessible but also provides all the information one would need.
 
-The about me section's main component was that of the  
-
-### Projects
-
-in this
-
-### Blogs
 ---
-
-## Screenshots
 
 ### Index Wireframe
 
