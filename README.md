@@ -41,7 +41,7 @@ One of the most interesting features of the website occurs on the index page whe
 
 ### About Me
 
-in this 
+The about me section's main component was that of the  
 
 ### Projects
 
