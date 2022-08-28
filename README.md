@@ -11,14 +11,16 @@
 ---
 
 ## Purpose
+
 The purpose of building this website is to create a portfolio website that can be shown to prospective employers to showcase my skills. The website has links to projects I have completed throughout my education while also showing my ability to develop a funtioning and attractive website.
 
 ---
 
-## Sitemap 
+## Sitemap
+
 Created using Figma
 
-Each of the main four pages can be navigated to by using the navigation menu at the top of the page. To access the other blog posts they are accessed by using a navigation menu in the blogs page themselves. Also the resume is accessed by clicking the resume button in the about me section. 
+Each of the main four pages can be navigated to by using the navigation menu at the top of the page. To access the other blog posts they are accessed by using a navigation menu in the blogs page themselves. Also the resume is accessed by clicking the resume button in the about me section.
 
 ![Sitemap](images/Sitemap-portfolio.png)
 
@@ -74,9 +76,11 @@ Another interesting component of the website is the article layout of the about 
 ### Blogs Page
 
 ![Blogs page](images/blogs-screenshot-crop.png)
+
 ---
 
 ## Target Audience
+
 As stated before, the target audience for this portfolio is prospective employers and also other developers. As such, this website suggests an understanding of the technicalities surrounding building a website while also providing links to other projects to showcase other aspects of my skills. The website is also responsive mobile, tablet and desktop to support a wider range of users.
 
 ---
@@ -88,4 +92,4 @@ As stated before, the target audience for this portfolio is prospective employer
 - Figma (Wireframes)
 - Github (Repository)
 - Netlify (Deployment)
-- Octopus.do (Sitemap) 
+- Octopus.do (Sitemap)
