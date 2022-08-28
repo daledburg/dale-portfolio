@@ -22,7 +22,7 @@ Created using Figma
 
 Each of the main four pages can be navigated to by using the navigation menu at the top of the page. To access the other blog posts they are accessed by using a navigation menu in the blogs page themselves. Also the resume is accessed by clicking the resume button in the about me section.
 
-![Sitemap](images/Sitemap-portfolio.png)
+![Sitemap](docs/Sitemap-portfolio.png)
 
 ---
 
@@ -47,35 +47,35 @@ Another interesting component of the website is the article layout of the about 
 
 ### Index Wireframe
 
-![Index Wireframe](images/index-wireframe.png)
+![Index Wireframe](docs/index-wireframe.png)
 
 ### Index Page
 
-![Index Page](images/index-screenshot-crop.png)
+![Index Page](docs/index-screenshot-crop.png)
 
 ### About Me Wireframe
 
-![About Me Wireframe](images/about-me-wireframe.png)
+![About Me Wireframe](docs/about-me-wireframe.png)
 
 ### About Me Page
 
-![About me page](images/about-me-screenshot-crop.png)
+![About me page](docs/about-me-screenshot-crop.png)
 
 ### Projects Wireframe
 
-![Projects Wireframe](images/projects-wireframe.png)
+![Projects Wireframe](docs/projects-wireframe.png)
 
 ### Projects Page
 
-![Projects page](images/projects-screenshot-crop.png)
+![Projects page](docs/projects-screenshot-crop.png)
 
 ### Blogs Wireframe
 
-![Blogs Wireframe](images/blogs-wireframe.png)
+![Blogs Wireframe](docs/blogs-wireframe.png)
 
 ### Blogs Page
 
-![Blogs page](images/blogs-screenshot-crop.png)
+![Blogs page](docs/blogs-screenshot-crop.png)
 
 ---
 
