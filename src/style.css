@@ -413,13 +413,31 @@ h3 {
     width: 80%;
     height: auto;
     text-align: center;
+    padding: 1rem;
     margin: 2%;
     border: 2px solid goldenrod;
     border-radius: 2rem;
 }
+.projectsimg {
+    width: 80%;
+    /* padding: 1rem; */
+    border-radius: 2rem;
+    border: 1px solid grey;
+}
+.githublinks {
+    color: rgb(131, 155, 219);
+    font-size: 1rem;
+    font-style: italic;
+    padding: 0.5rem;
+}
+.projectdesc {
+    color: rgb(214, 204, 204);
+    padding: 0.5rem;
+}
 h5  {
     color: white;
-    padding: 2rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 0 0;
 }
 .projects {
     background: #2e334d;
